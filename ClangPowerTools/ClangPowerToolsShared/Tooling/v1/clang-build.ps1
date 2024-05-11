@@ -1606,9 +1606,7 @@ Function Process-Project( [Parameter(Mandatory=$true)] [string]       $vcxprojPa
 #-------------------------------------------------------------------------------------------------
 # Script entry point
 
-Clear-Host # clears console
-
-Write-InformationTimed "Cleared console. Let's begin..."
+Write-InformationTimed "Let's begin..."
 
 #-------------------------------------------------------------------------------------------------
 # If we didn't get a location to run CPT at, use the current working directory
