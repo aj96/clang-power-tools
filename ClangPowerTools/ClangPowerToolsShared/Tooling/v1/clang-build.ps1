@@ -196,7 +196,7 @@ $ErrorActionPreference = 'Continue'
 # ------------------------------------------------------------------------------------------------
 
 Set-Variable -name kCptGithubRepoBase -value `
-"https://raw.githubusercontent.com/Caphyon/clang-power-tools/master/ClangPowerTools/ClangPowerToolsShared/Tooling/v1/" `
+"https://raw.githubusercontent.com/aj96/clang-power-tools/master/ClangPowerTools/ClangPowerToolsShared/Tooling/v1/" `
                                       -option Constant
 Set-Variable -name kPsMajorVersion    -value (Get-Host).Version.Major   -Option Constant 
 # ------------------------------------------------------------------------------------------------
